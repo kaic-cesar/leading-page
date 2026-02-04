@@ -393,6 +393,17 @@ header {
 
 }
 
+footer {
+    background-color: var(--color-primary-1);
+    color: var(--color-neutral-1);
+    text-align: center;
+    padding: 12px;
+
+    p {
+        font-size: 1rem;
+    }
+}
+
 @media (min-width: 1200px) {
     #about {
         margin: 4%;
